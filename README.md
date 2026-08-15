@@ -1,59 +1,118 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🚗 Car Dealership
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A Laravel-based web application designed to provide a platform for browsing, managing, and inquiring about vehicles.
 
-## About Laravel
+📌 About the Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Car Dealership is a full-stack web application developed to provide a modern platform for managing vehicle listings and connecting potential buyers with available cars.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The application includes separate functionality for customers and administrators, including vehicle management, user authentication, car inquiries, and an administrative dashboard.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+✨ Features
+🔐 User registration and authentication
+📧 Email verification and notifications
+🚗 Browse available vehicles
+🔎 View detailed vehicle information
+📩 Submit vehicle inquiries
+👤 User profile management
+🛠️ Admin dashboard
+➕ Add new vehicle listings
+✏️ Edit and manage vehicle listings
+🗑️ Manage vehicle records
+👥 User management
+📊 Inquiry management
+🔒 Admin authorization and access control
+🛠️ Tech Stack
+Technology	Usage
+PHP	Backend development
+Laravel	Web application framework
+MySQL	Database
+Blade	Frontend templating
+Tailwind CSS	UI styling
+JavaScript	Frontend functionality
+Vite	Asset bundling
+HTML & CSS	Interface development
+📸 Screenshots
+<img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/fd2efe5b-8889-4a95-b0bc-2e46264efb9d" />
+<img width="1915" height="918" alt="image" src="https://github.com/user-attachments/assets/9fd4d2de-463b-45f8-9da1-488fdea6169b" />
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/5500b4ed-5f31-4eef-a2e1-3bf6d75528d4" />
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/0786e534-afbb-4f90-95be-ad54b24845d0" />
+<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/f11b85cd-fe2d-4b46-ae37-61611126258d" />
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/432e45e1-442b-4c33-b527-091967be4706" />
+<img width="1632" height="620" alt="image" src="https://github.com/user-attachments/assets/c8cb76b3-7d27-45d9-a0f9-8ea1511a6ed7" />
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/235cdd15-8b74-4434-a074-497bbe2c61be" />
+<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/206aeec4-436f-4827-8e47-466a7a2e7e49" />
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/51a56338-0b25-4678-9285-e290ab97c760" />
 
-## Learning Laravel
+⚙️ Installation
+Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Make sure you have the following installed:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+PHP
+Composer
+MySQL
+Node.js & npm
+XAMPP or another local PHP development environment
+Setup
 
-## Laravel Sponsors
+Clone the repository:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+git clone https://github.com/khwajasuhaibahmed/car-dealership.git
+cd car-dealership
 
-### Premium Partners
+Install PHP dependencies:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+composer install
 
-## Contributing
+Install frontend dependencies:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+npm install
 
-## Code of Conduct
+Create your environment file:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+cp .env.example .env
 
-## Security Vulnerabilities
+Generate the Laravel application key:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+php artisan key:generate
 
-## License
+Configure your database credentials in .env, then run:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+php artisan migrate
+
+Build the frontend assets:
+
+npm run build
+
+Start the Laravel development server:
+
+php artisan serve
+
+The application will be available at:
+
+http://127.0.0.1:8000
+🔒 Environment Variables
+
+For security reasons, sensitive environment variables are not included in this repository.
+
+Create your own .env file using .env.example and configure your local database and mail settings.
+
+🎯 Future Improvements
+Online payment integration
+Advanced vehicle search and filtering
+Image gallery improvements
+Dealer/vendor accounts
+Vehicle comparison
+Improved analytics and reporting
+👨‍💻 Author
+
+Khwaja Suhaib Ahmed
+
+Computer Science Student & Web Developer
+
+GitHub: khwajasuhaibahmed
+LinkedIn: Khwaja Suhaib Ahmed
+📄 License
+
+This project was developed as a software project for educational and portfolio purposes.
